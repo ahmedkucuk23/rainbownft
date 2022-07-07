@@ -10,3 +10,74 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.main-head{
+  background-color: #1B1B1B;
+  padding:80px 0;
+}
+.main-head .home-header{
+  font-size: "Akshar", sans-serif!important;
+  color: #fff;
+}
+
+.video_home{
+  width: 100%;
+  border: 5px solid #fff;
+}
+
+.faqsec{
+  margin: 50px 0;
+  background-color: #1B1B1B;
+  color: #fff;
+}
+
+
+.text-secondary {
+    color: #3d5d6f;
+  }
+
+  .h4,
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  .fa,
+  .fas {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-style: normal;
+  }
+
+  .right-0 {
+    right: 0;
+  }
+
+  .top-0 {
+    top: 0;
+  }
+
+  .h-100 {
+    height: 100%;
+  }
+
+  a.text-secondary:focus,
+  a.text-secondary:hover {
+    text-decoration: none;
+    color: #22343e;
+  }
+
+  #accordion .fa-plus {
+    transition: -webkit-transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  }
+
+  #accordion a[aria-expanded=true] .fa-plus {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
